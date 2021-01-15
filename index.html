@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Daily Journal</title>
+        <link rel="stylesheet" href="./styles/main.css">
+    </head>
+
+    <body>
+        <main id="container">
+            <h1>Daily Journal</h1>
+            <h2>Tracy Depp</h2>
+            <form action="">
+                <fieldset>
+                    <label for ="journalDate">Date of Entry</label>
+                    <input type ="date" name="journalDate" id="journalDate">
+                </fieldset>
+                <fieldset>
+                    <label for ="conceptsCovered">Concepts Covered</label>
+                    <textarea name="info"></textarea>  
+                </fieldset>
+                <fieldset>
+                    <label for= "journalEntry">Journal Entry</label>
+                    <textarea name="entry"></textarea>           
+                </fieldset>
+                <fieldset>
+                    <label for="mood">Mood</label>
+                    <select name="mood" id="mood">
+                        <option value="happy">Happy</option>
+                        <option value="excited">Excited</option>
+                        <option value="focused">Focused</option>
+                        <option value="sad">Sad</option>
+                        <option value="confused">Confused</option>
+                        <option value="overwhelmed">Overwhelmed</option>
+                        <option value="frustrated">Frustrated</option>
+                        <option value="accomplished">Accomplished</option>
+                    </select>
+                </fieldset>
+                <button>Save Journal Entry</button>
+            </form>
+        </main>
+
+        <script type="module" src="./scripts/main.js"></script>
+    </body>
+</html>
