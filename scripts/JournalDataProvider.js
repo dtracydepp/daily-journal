@@ -37,8 +37,8 @@ const journal = [
 ]
 
 /*
-    You export a function that provides a version of the
-    raw data in the format that you want
+    Exports useJounralEntries function that provides a version of the
+    raw data in the format I want
 */
 export const useJournalEntries = () => {
     const sortedByDate = journal.sort(
